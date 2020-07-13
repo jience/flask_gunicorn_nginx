@@ -1,5 +1,6 @@
 # Docker + Gunicorn + Nginx 部署 Flask 应用
 
+![Gunicorn-Flask](./static/images/gunicorn_flask.jpg)
 
 ## Q&A
 
