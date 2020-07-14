@@ -14,6 +14,21 @@
 - **Nginx**
 >Nginx (engine x) 是一个高性能的HTTP和反向代理web服务器，同时也提供了IMAP/POP3/SMTP服务
 
+## Build
+
+```bash
+# 编译镜像
+docker-compose build
+```
+
+
+## Run
+
+```bash
+# 启动容器
+docker-compose up -d
+```
+
 ## Note
 
 - 因为Alpine镜像的小巧，所以使用python:3.6-alpine作为基础镜像，但是难免也会在后期遇到莫名其妙的错误，则需要慎重考虑是否一定需要使用Alpine镜像，而替换为python:3.6作为基础镜像
