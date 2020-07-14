@@ -8,6 +8,7 @@
 >Gunicorn是一个unix上被广泛使用的高性能的Python WSGI UNIX HTTP Server
 
 与uwsgi的性能比较:
+
 ![Gunicorn-VS-uwsgi](./static/images/gunicorn_vs_uwsgi.png)
 
 - **Nginx**
