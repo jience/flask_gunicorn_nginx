@@ -1,0 +1,12 @@
+version: "3"
+services:
+  flasky:
+    image: flasky
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: flasky
+    restart: always
+    ports:
+      - "5000:5000"
+      - "9001:9001"
