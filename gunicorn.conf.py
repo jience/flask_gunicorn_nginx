@@ -6,7 +6,7 @@ https://docs.gunicorn.org/en/latest/index.html
 import multiprocessing
 
 loglevel = "debug"
-bind = "0.0.0.0:5000"
+bind = "unix:/tmp/gunicorn.sock"
 workers = multiprocessing.cpu_count() * 2 + 1
 worker_class = "gevent"
 max_requests = 1000
